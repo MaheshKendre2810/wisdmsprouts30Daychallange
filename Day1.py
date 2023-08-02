@@ -9,5 +9,6 @@ for i in range(1, nummber + 1):
     n1 = int(input("Enter elements: "))
     numberlist.append(n1)
  
-# Print maximum number
-print("Largest element is:", max(numberlist))
+ 
+# Printing maximum number index
+print("Largest element index is:",(numberlist.index( max(numberlist))+1))
