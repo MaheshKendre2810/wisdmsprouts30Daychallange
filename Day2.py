@@ -8,7 +8,17 @@ def countX(lst, x):
  
  
 # Driver Code
-lst = [8, 6, 8, 10, 8, 20, 10, 8, 8]
-x = 8
-print('{} has occurred {} times'.format(x,
-                                        countX(lst, x)))
+lst = []
+
+# elements to put in list
+nummber = int(input("Enter number of elements in list: "))
+ 
+#  num to append number in list
+for i in range(1, nummber + 1):
+    n1 = int(input("Enter elements: "))
+    lst.append(n1)
+
+
+x =int(input("Enter number to be count in list: "))
+
+print('{} has occurred {} times'.format(x,countX(lst, x)))
